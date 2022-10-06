@@ -1,0 +1,49 @@
+.section-selected {
+    width: 30%;
+    margin-top: 4.1rem;  
+    display: flex;
+    flex-direction: column; 
+}
+
+.section-selected-header {
+    border-radius: var(--radius-default) var(--radius-default) 0 0;
+    padding: 2rem;
+}
+
+.selected-empty {
+    padding: 2rem;
+    border-radius: 0 0 var(--radius-default) var(--radius-default);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.selected-empty div {
+    width: 50%;
+    border-radius: 2rem;
+    height: 1rem;
+}
+
+.card-selected-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.card-selected {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-selected-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-selected-footer {
+    display: flex;
+    gap: 1rem;
+}
+

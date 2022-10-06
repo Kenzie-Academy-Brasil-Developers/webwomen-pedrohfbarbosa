@@ -1,0 +1,53 @@
+.title-1 {
+    font-size: var(--title-1);
+    font-weight: 600;
+}
+
+.title-2 {
+    font-size: var(--title-2);
+    font-weight: 600;
+}
+
+.title-3 {
+    font-size: var(--title-3);
+    font-weight: 600;
+}
+
+.title-4 {
+    font-size: var(--title-4);
+    font-weight: 600;
+}
+
+.title-5 {
+    font-size: var(--title-5);
+    font-weight: 600;
+}
+
+.title-6 {
+    font-size: var(--title-5);
+    font-weight: 500;
+}
+
+.text-1 {
+    font-size: var(--text-1);
+    font-weight: 400;
+}
+
+.text-2 {
+    font-size: var(--text-2);
+    font-weight: 400;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.text-3 {
+    font-size: var(--text-3);
+    font-weight: 400;
+}
+
+.text-btn {
+    font-size: var(--text-2);
+    font-weight: 500;
+}
+
+

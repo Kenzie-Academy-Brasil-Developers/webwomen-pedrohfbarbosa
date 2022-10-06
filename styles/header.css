@@ -1,0 +1,35 @@
+header {
+    min-height: 40rem;
+    max-height: 100%;
+    background-image: linear-gradient(var(--opacity-1), var(--opacity-1)), url(../assets/img/Pexels\ Photo\ by\ Christina\ Morillo.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    height: 1.5rem;
+    width: 12.125rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
