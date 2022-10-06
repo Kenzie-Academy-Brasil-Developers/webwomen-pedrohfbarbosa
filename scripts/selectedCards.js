@@ -57,6 +57,7 @@ function createEmptyCart() {
 function listSelectedItems(arr) {
     const selectedContent = document.querySelector(".selected-content")
     selectedContent.innerHTML = ""
+    
     if (arr.length > 0) {
         const selectedItemsWrapper = document.createElement("ul")
         selectedItemsWrapper.classList.add("card-selected-wrapper")

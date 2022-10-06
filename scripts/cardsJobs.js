@@ -70,7 +70,7 @@ function createJobCard(item) {
     return card
 }
 
-function listCards() {
+function listCards() {        
     const cardWrapper = document.querySelector(".cards-wrapper")
 
     cardWrapper.innerHTML = ""
